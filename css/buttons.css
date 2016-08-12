@@ -1,0 +1,34 @@
+.pri {
+    font-family: 'Monof55';
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: deepskyblue;
+    border: solid 1px;
+    border-color: deepskyblue;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.pri:hover {
+    background-color: #d3d3d3;
+    border-color: #d3d3d3;
+}
+
+.sec {
+    font-family: 'Monof55';
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: deepskyblue;
+    background-color: #ffffff;
+    border: solid 1px;
+    padding: 1em;
+    font-weight: bold;
+}
+
+.sec:hover {
+    color: #d3d3d3;
+    border-color: #d3d3d3;
+}

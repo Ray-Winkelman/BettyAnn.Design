@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'Monof55';
+    src: url('../font/basic-title-font.ttf');
+}
+
+@font-face {
+    font-family: 'EMLATIN6';
+    src: url('../font/soft-elegance.ttf');
+}
+
+html {
+    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
+    font-smooth: always;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background-image: url("../img/lake-house.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    padding-top: 98px;
+}
+
+h1, h2, h3, h4, h5, h6, button, .navbar-header > a, .navbar-collapse .nav > li > a {
+    font-family: 'Monof55';
+    font-weight: bold;
+}
+
+button {
+    margin-left: 6px;
+}
+
+p, a, li, address {
+    font-family: 'EMLATIN6';
+}
+
+td {
+    min-width: 55px;
+}
+
+.row {
+    background-color: #ffffff;
+    font-size: 16px;
+    border: solid 1px deepskyblue;
+    padding: 16px;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.photo-bettyann {
+    margin-right: 18px;
+}
+
+.slideshow {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#slide-container {
+    text-align: center;
+    vertical-align: middle;
+    width: 640px;
+    height: 426px;
+    overflow: hidden;
+    padding-bottom: 58px;
+}
+
+@media(max-width: 768px){
+
+    h2 {
+        font-weight: bold;
+    }
+
+    #slide-container {
+        width: 320px;
+        height: 213px;
+    }
+}
+
+#slide-container img {
+    width: 100%;
+    height: 100%;
+    border: solid 1px;
+    border-color: deepskyblue;
+}
+
+.slideshow #slide-container {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#myModal button {
+    margin-left: 6px;
+}
+
+.modal-header {
+    border-bottom: hidden;
+}
+
+.modal-body {
+    border-top: hidden;
+    border-bottom: hidden;
+}
+
+.modal-footer {
+    border-top: hidden;
+}
+
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
