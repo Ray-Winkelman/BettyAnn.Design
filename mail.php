@@ -10,7 +10,7 @@ $message = ''.$_POST['name2'].' \r\n '.$_POST["message2"].' \r\n '.$_POST["phone
 
 // To send HTML mail, the Content-type header must be set
 $headers  = 'MIME-Version: 1.0' . "\r\n";
-$headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+$headers .= 'Content-type: text/plain; charset=UTF-8' . "\r\n";
 
 // Additional headers
 $headers .= 'To: info@bettyann.design' . "\r\n";
