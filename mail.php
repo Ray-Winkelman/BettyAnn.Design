@@ -13,7 +13,6 @@ $headers  = 'MIME-Version: 1.0' . "\r\n";
 $headers .= 'Content-type: text/plain; charset=UTF-8' . "\r\n";
 
 // Additional headers
-$headers .= 'To: info@bettyann.design' . "\r\n";
 $headers .= 'From: '.$_POST['email2'].' <'.$_POST['email2'].'>' . "\r\n";
 $headers .= 'Cc: raywinkelman@gmail.com' . "\r\n";
 
