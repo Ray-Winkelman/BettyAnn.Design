@@ -1,40 +1,60 @@
-.navbar {
-    background-color: #ffffff;
-    font-size: 16px;
-    letter-spacing: 0.05em;
+.navbar,
+.navbar-inverse {
+    font-family: 'Monof55' !important;
+    background-color: #ffffff !important;
+    font-size: 16px !important;
+    letter-spacing: 0.05em !important;
     text-transform: uppercase;
-    color: deepskyblue;
-    border: solid 1px deepskyblue;
-    padding: 14px;
-    margin: 1em 1em;
-    font-weight: bold;
+    color: deepskyblue !important;
+    border: solid 1px deepskyblue !important;
+    padding: 14px !important;
+    margin: 1em 0 !important;
+    font-weight: bold !important;
 }
-
 a,
 .navbar .navbar-header > a,
 .navbar-collapse .nav > li > a {
     color: deepskyblue;
 }
-
+.navbar-inverse .navbar-nav .nav-link,
+.navbar-inverse .navbar-brand {
+    color: deepskyblue !important;
+    padding-top: .5em !important;
+    padding-right: 1em !important;
+    padding-left: 1em !important;
+    font-family: 'Monof55' !important;
+}
+.navbar-inverse .navbar-nav .nav-link {
+    padding-top: 1em !important;
+}
 a:hover,
 .navbar .navbar-header > a:hover,
 .navbar-collapse .nav > li > a:hover {
-    color: #d3d3d3;
-    text-decoration: none;
+    color: #d3d3d3 !important;
+    text-decoration: none !important;
 }
-
-.navbar-inverse .navbar-toggle .icon-bar {
-    background-color: deepskyblue; !important;
-    color: deepskyblue; !important;
+.navbar-toggler-icon {
+    background-color: deepskyblue;
+    !important;
+    color: deepskyblue;
+    !important;
+    border: solid 1px deepskyblue !important;
 }
-
+button.navbar-toggler.navbar-toggler-right {
+    padding: 0px !important;
+    margin: 0px !important;
+}
 .navbar-inverse .navbar-toggle {
-    border: 1px solid deepskyblue; !important;
+    border: 1px solid deepskyblue;
+    !important;
 }
-
-@media(max-width: 767px){
-    .navbar .navbar-header .navbar-brand {
-        font-size: 16px;
-        font-weight: bold;
+@media(max-width: 767px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 16px !important;
+        font-weight: bold !important;
     }
+}
+.bad-nav {
+    padding: 0px;
+    margin: auto;
 }
